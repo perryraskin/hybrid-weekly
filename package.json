@@ -9,6 +9,9 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
+		"@headlessui/react": "^1.4.3",
+		"@heroicons/react": "^1.0.5",
+		"dayjs": "^1.10.7",
 		"next": "12.0.7",
 		"next-pwa": "^5.4.4",
 		"next-themes": "^0.0.15",
@@ -30,8 +33,7 @@
 	},
 	"prettier": {
 		"semi": false,
-		"singleQuote": true,
-		"jsxSingleQuote": true,
-		"useTabs": true
+		"useTabs": true,
+		"trailingComma": "none"
 	}
 }
