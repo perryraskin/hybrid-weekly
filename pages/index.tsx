@@ -23,7 +23,7 @@ const people = [
 	},
 	{
 		name: "John Smith",
-		email: "sdf@example.com",
+		email: "johnsmith@example.com",
 		imageUrl:
 			"https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
 		going: true
@@ -54,7 +54,7 @@ const Index = () => (
 			<div className="flex-shrink-0">
 				<img
 					className="h-12 w-12 rounded-full"
-					src={`https://i.ibb.co/X4PFmQ0/SCR-20220202-jyw.png`}
+					src={`https://i.ibb.co/McpWXNP/bigstock-221516158.jpg`}
 					alt=""
 				/>
 			</div>
@@ -66,7 +66,7 @@ const Index = () => (
 			<div key={i} className="mb-6">
 				<span
 					className="mt-10 inline-flex items-center px-6 py-2 rounded-md text-2xl 
-			   font-semibold bg-purple-600 text-white"
+			   font-semibold bg-indigo-600 dark:bg-indigo-500 text-white"
 				>
 					{dayjs().day(i).format("dddd")}
 				</span>
@@ -91,7 +91,7 @@ const Index = () => (
 										You
 									</p>
 									<p className="text-sm text-gray-500 dark:text-gray-400 truncate">
-										perry.raskin@citi.com
+										perryraskin@example.com
 									</p>
 								</a>
 							</div>
